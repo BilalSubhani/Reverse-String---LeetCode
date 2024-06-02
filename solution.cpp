@@ -10,14 +10,5 @@ public:
             s[i]=s[j];
             s[j]=c; 
         }
-
-        cout << "[";
-        for(int i=0;i<s.size();i++)
-        {
-            cout <<"\"" << s[i] << "\"";
-            if(i!=s.size()-1)
-                cout <<",";
-        }
-        cout << "]"<< endl;
     }
 };
